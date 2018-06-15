@@ -1,0 +1,28 @@
+{
+  "name": "3h-time",
+  "version": "0.1.0",
+  "description": "A time formatter.",
+  "main": "dist\\index.js",
+  "scripts": {
+    "test": "node test\\test.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huang2002/3h-time.git"
+  },
+  "keywords": [
+    "time",
+    "date",
+    "format",
+    "formatter",
+    "fmt",
+    "3h"
+  ],
+  "author": "3h",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huang2002/3h-time/issues"
+  },
+  "homepage": "https://github.com/huang2002/3h-time#readme"
+}
