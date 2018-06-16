@@ -3,6 +3,7 @@
 A time formatter.
 
 # Install
+
 ```
 npm i 3h-time
 ```
@@ -21,7 +22,7 @@ Equal to `Time.format(new Date(), format)`.
 
 A replacer map.
 
-# Replacer map
+# Replace map
 
 - YYYY - Full year.
 - YY - Short year.
