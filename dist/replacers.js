@@ -9,17 +9,22 @@ const months = [
     'Mon', 'Tues', 'Wed', 'Thou', 'Fri', 'Sat', 'Sun'
 ];
 function getPostfix(date) {
-    const x = +date.toString().padStart(2, '0')[1];
-    switch (x) {
-        case 1:
-            return 'st';
-        case 2:
-            return 'nd';
-        case 3:
-            return 'rd';
-        default:
-            return 'th';
-            ;
+    if ([11, 12, 13].includes(date)) {
+        return 'th';
+    }
+    else {
+        const x = +date.toString().padStart(2, '0')[1];
+        switch (x) {
+            case 1:
+                return 'st';
+            case 2:
+                return 'nd';
+            case 3:
+                return 'rd';
+            default:
+                return 'th';
+                ;
+        }
     }
 }
 const replacers = {
