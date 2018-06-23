@@ -7,9 +7,9 @@ const samples = [
     'YY-M-D',
     'MMMM dd WW',
     'MMM d W',
-    'HH:mm:SS:ss',
+    'HH:mm:SS.ss',
     'H:m:S:s A',
-    'hh:mm:SS:sss',
+    'hh:mm:SS.sss',
     'M-D w h:m a'
 ];
 samples.forEach(fmt => console.log('"' + fmt + '":\t' + Time.format(date, fmt)));

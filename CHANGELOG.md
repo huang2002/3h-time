@@ -1,3 +1,7 @@
+### 0.1.5 - 2018-06-23
+
+- Modify the test script
+
 ### 0.1.4 - 2018-06-23
 
 - Fix entries to type declaration files
