@@ -1,3 +1,7 @@
+### 0.1.4 - 2018-06-23
+
+- Fix entries to type declaration files
+
 ### 0.1.3 - 2018-06-17
 
 - Update README.md
