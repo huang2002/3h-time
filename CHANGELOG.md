@@ -1,3 +1,7 @@
+### 1.0.0 - 2018-07-10
+
+- Stable version
+
 ### 0.1.5 - 2018-06-23
 
 - Modify the test script
