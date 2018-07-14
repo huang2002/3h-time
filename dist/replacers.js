@@ -4,9 +4,7 @@ const months = [
     'May', 'June', 'July', 'August',
     'September', 'October', 'November', 'December'
 ], days = [
-    'Monday', 'Tuesday', 'Wednesday', 'Thousday', 'Friday', 'Saturday', 'Sunday'
-], shortDays = [
-    'Mon', 'Tues', 'Wed', 'Thou', 'Fri', 'Sat', 'Sun'
+    'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'
 ];
 function getPostfix(date) {
     if ([11, 12, 13].includes(date)) {
@@ -97,7 +95,7 @@ const replacers = {
         return days[date.getDay() - 1];
     },
     W(date) {
-        return shortDays[date.getDay() - 1];
+        return days[date.getDay() - 1].slice(0, 3);
     },
     ww(date) {
         return date.getDay().toString().padStart(2, '0');
