@@ -1,3 +1,7 @@
+### 1.1.1 - 2018-07-21
+
+- Add .gitignore
+
 ## 1.1.0 - 2018-07-21
 
 - Support identifying replacers without any gap
