@@ -5,10 +5,10 @@ const date = new Date('1234-5-6 7:8:9:101');
 const samples = [
     'YYYY-MM-DD',
     'YY-M-D',
-    'MMMM dd WW',
+    'MMMMdd WW',
     'MMM d W',
     'HH:mm:SS.ss',
-    'H:m:S:s A',
+    'H:m:S.s A',
     'hh:mm:SS.sss',
     'M-D w h:m a'
 ];

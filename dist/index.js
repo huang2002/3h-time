@@ -7,7 +7,7 @@ const Time = {
     },
     format(date, format) {
         let ans = format;
-        const ids = format.match(/\b\w+\b/g);
+        const ids = format.match(/(\w)\1*/g);
         if (ids) {
             ids.forEach(id => {
                 const replacer = replacers[id];
