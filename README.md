@@ -52,10 +52,6 @@ A replacer map.
 - `A` - AM/PM.
 - `a` - am/pm.
 
-# Examples
-
-Just run `npm test` in the package folder to get the examples.
-
 # Changelog
 
 See [CHANGELOG.md](Changelog.md).

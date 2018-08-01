@@ -1,3 +1,7 @@
+### 1.2.1 - 2018-08-01
+
+- Update READMD.md
+
 ## 1.2.0 - 2018-08-01
 
 - Add browser support
